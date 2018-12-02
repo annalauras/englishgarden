@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+html,
+body,
+ol,
+figure,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* article,
+section,
+header,
+footer,
+nav {
+    display: none;
+} */
+
+h1 {
+    font-size: 2.915em;
+}
+
+h2 {
+    font-size: 2.041em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.429em;
+}
+
+div {
+    font-size: 1em;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* a {cursor: pointer;
+text-decoration: none;
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+}
+
+a:focus {
+    outline: thin dotted;
+} */

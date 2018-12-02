@@ -1,0 +1,80 @@
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.page-info {
+    padding: 0.3em;
+    line-height: 1.2;
+}
+
+ .bg-banner {
+    background-image: url("../asset/image/cropped-planting-1.jpg");
+    height: 70%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ #bg-logo-banner {
+    max-width: 85%;
+ }
+
+ #photo-cred {
+    font-size: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column > img {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: 235px;
+    width: 100%;
+  }
+  
+  .horizontal {
+      height: 467px;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
