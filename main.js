@@ -55,7 +55,7 @@ const InjectSiteCredits = ({ element }) => {
 
     $(`
         <div>&#169; ${year} The English Garden Daycare Nursery and Pre-school</div>
-        <div id='name-tag'>Site by <a href='mailto:annasawangwan@gmail.com'>Anna Sawangwan</a></div>
+        <div id='name-tag'>Site by <a href='http://annalauras.com/'>Anna Sawangwan</a></div>
     `).appendTo(element)
 };
 
@@ -152,6 +152,7 @@ const Init = () => {
 
     const navLinks = [
         { url: 'index.html', label: currentLocale === 'en' ? 'Home' : 'Főoldal' },
+        { url: 'admission.html', label: currentLocale === 'en' ? 'Admission' : 'Felvételi' },
         { url: 'photo-gallery.html', label: currentLocale === 'en' ? 'Photos' : 'Galéria' },
         { url: 'calendar.html', label: currentLocale === 'en' ? 'Calendar' : 'Naptár' },
         { url: 'parent-zone.html', label: currentLocale === 'en' ? 'Parents' : 'Parent Zone' },
